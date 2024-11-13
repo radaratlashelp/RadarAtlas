@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "RadarAtlas",
+  "version": "9.9.9",
+
+  "action": {
+    "default_title": "RadarAtlas",
+    "default_icon": "./images/webstoreIcon.png"
+  },
+  "description": "RadarAtlas is now open sourced. Install locally from your browser's extension manager.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://globe.adsbexchange.com/*",
+        "https://adsb.lol/*",
+        "https://globe.theairtraffic.com/*",
+        "https://globe.airplanes.live/*",
+        "https://globe.adsb.fi/*",
+        "http://localhost/*",
+        "https://tbgmap.airframes.io/*"
+
+      ],
+      "js": [
+        "jquery-3.7.0.min.js",
+        "interestingList.js",
+        "interesting.js",
+        "byICAO.js",
+        "lookupByReg.js",
+        "userFavorites.js",
+        "openSkyList.js",
+        "airplanes.js"
+        
+      ],
+      "css": [
+        "styles.css"
+      ]
+      
+      
+    }
+  ]
+}

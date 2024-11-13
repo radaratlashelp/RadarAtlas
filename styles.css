@@ -1,0 +1,401 @@
+
+
+.centeredModeButton {
+  background: #a86dd2 !important;
+  font-weight: lighter;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  width: 180px;
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+/* .tab-switcherz {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.centerIntTest {
+  border: 1px solid orangered;
+}
+.intBox {
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+} */
+
+.radarSpotsDashboard {
+  text-align: center;
+  width: 384px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+#dump1090_total_ac {
+  color: red !important;
+}
+
+.dashboardInfo a:visited {
+  color: purple;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.5), 1px -1px 2px rgba(255, 255, 255, 0.5), -1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.dashboardInfo a {
+  color: blue; /* Replace with your desired link color */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.5), 1px -1px 2px rgba(255, 255, 255, 0.5), -1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.ADSBcollapsible {
+  background-color: #7171718a !important;
+}
+
+.lookupByReg {
+  border: 2px solid currentColor;
+}
+
+#airportICAO, #airportIATA {
+  border: 2px solid currentColor;
+}
+
+#airportICAO:invalid, #airportIATA:invalid, #addNewFavorite:invalid {
+  border: 2px solid red;
+}
+
+.noDbFound {
+  color: red;
+  font-size: 10px !important;
+  font-weight: lighter !important;
+}
+
+.adsbwelcomedisclaimer {
+  font-size: 13px !important;
+  font-weight: lighter !important;
+  text-align: left;
+  padding: 5px;
+  background-color: rgb(242, 111, 120, 0.5);
+}
+
+.adsbLinks{
+  font-size: 13px !important;
+
+}
+
+.boldDisclaimer {
+  text-align: center;
+}
+
+
+
+
+
+.adsbAddOnHeader {
+  width: 384px;
+  border: 1px solid black;
+  display: flex;
+}
+.beerButtonAndTitle {
+  width: 387px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+}
+
+.centeredTitleText {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.currentVersion {
+  text-align: center;
+  font-size: x-small;
+
+}
+
+.blogAndTwitter {
+  text-align:center;
+  font-size:medium;
+  margin:0;
+  padding:0;
+}
+
+.blogAndTwitter {
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+
+
+#geocode {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#geocodeCity {
+  border: 2px solid currentColor;
+}
+
+#addNewFavorite {
+  border: 2px solid currentColor;
+}
+
+
+
+
+.quickJumpButton {
+  background: rgb(41, 174, 214);
+  background: linear-gradient(
+    90deg,
+    rgb(41, 159, 214) 40%,
+    rgb(9, 58, 121) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-weight: lighter;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  width: 180px;
+  margin-top: 1px;
+  margin-left: auto;
+}
+#intBox {
+  text-align: center;
+  width: 190px;
+  border: 1px solid black;
+}
+#zoomHomeBox {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 190px;
+  border: 1px solid black;
+}
+
+#addRemoveFavorites {
+  width: 190px;
+  height: 452px;
+  border: 1px solid black;
+  background-color: rgba(147, 147, 147, 0.43);
+}
+.favHeader, .classFavesInject, .userFavorites {
+  background-color: rgba(147, 147, 147, 0.43);
+  color: black;
+}
+#userFavorites {
+  width: 190px;
+  border: 1px solid black;
+  background-color: rgba(147, 147, 147, 0.43);
+}
+
+/* this is for the zoom home box and text within it */
+.latLong {
+  opacity: 80%;
+  font-style: italic;
+}
+.currentHomeValue {
+  font-size: x-small;
+}
+.homeFormatHelp,
+.faveRequiredFormat {
+  font-size: x-small;
+}
+#clearSavedHomeValue {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 214, 41, 1) 15%,
+    rgb(221, 67, 40) 100%
+  );
+}
+.latLong {
+  opacity: 80%;
+  font-style: italic;
+}
+
+.currentHomeValue,
+.favesText {
+  font-size: x-small;
+}
+
+.listOfFaves {
+  max-width: 175px !important;
+  max-height: 205px !important;
+}
+
+.homeFormatHelp {
+  font-size: x-small;
+}
+
+.latLongHelperText,
+.icaoHelperText {
+  background-color: darkslategray;
+  font-size: x-small;
+  color: lightgray;
+  border-radius: 3px;
+}
+
+#clearSavedHomeValue {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 214, 41, 1) 15%,
+    rgb(221, 67, 40) 100%
+  );
+}
+
+.intButton {
+  background: rgb(41, 174, 214);
+  
+  font-weight: lighter;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  width: 180px;
+  
+  margin-left: auto;
+}
+
+.chromePopup {
+  align-items: center;
+}
+
+
+
+.redGuy {
+  background: rgb(225, 69, 69);
+  
+  font-weight: lighter;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  width: 180px;
+  margin-top: 1px;
+  margin-left: auto;
+}
+
+.infoblockCloseBox {
+  opacity: 25%;
+}
+
+.tweetMe {
+  color: black;
+  text-shadow: 2px 2px 15px rgb(41, 148, 214) !important;
+  margin-left: auto;
+}
+
+#adsbxRegDetail {
+  
+  background: #5ac090;
+  padding: 1px;
+  font-family: monospace;
+  font-weight: 300;
+  font-size:large;
+}
+
+
+
+.copyReg {
+  position: fixed !important;
+}
+
+
+#intClear,
+#intClear2 {
+  background: rgb(242, 111, 120);
+  
+  opacity: 100%;
+  border: 2px solid black;
+}
+
+
+
+.tutorialButton {
+  background: rgb(41, 122, 214);
+  background: linear-gradient(
+    90deg,
+    rgb(41, 136, 214) 15%,
+    rgb(221, 67, 40) 100%
+  );
+  opacity: 100%;
+  border: 1px solid black;
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.twitterButton {
+  background: #00ACEE;
+  opacity: 100%;
+  width: 155px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.aboutTextBox {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+#intClear:hover {
+  opacity: 90%;
+}
+
+#clearAllFaves {
+  background: rgb(230, 163, 19);
+  
+  opacity: 100%;
+  border: 2px solid black;
+}
+
+.twitter-follow-button {
+  border-radius: 8px !important;
+  margin-left: auto;
+}
+
+#interestingTitle {
+  color: black;
+  text-shadow: 2px 2px 15px rgba(41, 214, 130);
+  margin-left: auto;
+}
+
+.intButton:hover {
+  opacity: 80%;
+}
+
+#selected_callsign {
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
