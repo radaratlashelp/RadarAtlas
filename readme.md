@@ -2,10 +2,11 @@
 This project started in October 2020 and has been iterated on many times. At the time of writing in November, 2024, there was strong interest from the developer to open source the project to focus on other things. The purpose of this readme is to explain some of the files and how they work together. 
 
 ## Installation
-* Clone this repo locally
+* Either clone the repo via SSH/HTTPS or Download via zip from github via this link: https://github.com/radaratlashelp/RadarAtlas/archive/refs/heads/main.zip. Unzip it to a location on your computer that won't accidentally get deleted. 
 * Navigate to Chrome's extensions manager at `chrome://extensions`
 * Ensure Developer Mode is enabled by toggling it in the top right
-* Click `Load Unpacked` and in the modal that appears, navigate to wherever you cloned the repo to and click Select
+* Click `Load Unpacked` and in the modal that appears, navigate to wherever you saved the repo's files to and click `Select`.
+* That's it, you're all set. Now when you navigate to an ADSB site like `globe.adsbexchange.com`, you'll see the extension working. 
 * Note that this will likely work in Firefox (locally) as well, but the extension was difficult to publish there for widespread distribution.
 
 ## RadarAtlas Features
