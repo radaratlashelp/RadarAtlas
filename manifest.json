@@ -4,8 +4,7 @@
   "version": "9.9.9",
 
   "action": {
-    "default_title": "RadarAtlas",
-    "default_icon": "./images/webstoreIcon.png"
+    "default_title": "RadarAtlas"
   },
   "description": "RadarAtlas is now open sourced. Install locally from your browser's extension manager.",
   "content_scripts": [
